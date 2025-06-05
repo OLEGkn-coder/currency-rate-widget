@@ -11,7 +11,6 @@ let recordID;
 
 async function getDealRecord(recordID) {
   console.log("getDealRecord", recordID);
-  // Імітуємо затримку і повертаємо фіктивні дані
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve({
@@ -25,7 +24,6 @@ async function getDealRecord(recordID) {
   });
 }
 
-// Мок (імітація) оновлення даних угоди (замінює ZOHO.CRM.API.updateRecord)
 async function updateDealRecord(recordID, newRate) {
   console.log(`updateDealRecord ${recordID} з новим курсом: ${newRate}`);
   return new Promise((resolve) => {
@@ -88,6 +86,7 @@ async function load(recordID) {
 
 updateButton.addEventListener('click', async () => {
   try {
+    updateButton.classList.add('update-button-active')
     if (!recordID) throw new Error("ID запису не передано");
     updateButton.disabled = true;
     updateButton.textContent = "Записую...";

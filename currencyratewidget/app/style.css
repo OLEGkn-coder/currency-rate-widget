@@ -131,6 +131,19 @@ body{
  transition: all 0.5s;
 }
 
+.update-button-active{
+ width: 300px;
+ height: 60px;
+ color: white;
+ background-color: transparent;
+ border: 2px solid rgb(255, 255, 255);
+ border-radius: 20px;
+ font-family: Arial;
+ font-size: 17px;
+ transition: all 0.5s;
+ cursor: wait;
+}
+
 .update-button:active{
  background-color: rgb(156, 156, 156);
 }
