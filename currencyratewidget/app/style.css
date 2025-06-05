@@ -1,0 +1,149 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.flag{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 15px;
+}
+
+.en{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+}
+
+.en:hover{
+ border: 2px solid rgb(255, 255, 255);
+}
+.flagimg1{
+ object-fit: cover;
+ width: 35px;
+ height: 26px;
+}
+
+.uk{
+  display: flex;
+ justify-content: center;
+ align-items: center;
+ border: 2px solid transparent;
+  background-color: transparent;
+  cursor: pointer;
+  width: 45px;
+  height: 35px;
+}
+
+.uk:hover{
+ border: 2px solid rgb(255, 255, 255);
+}
+
+.flagimg2{
+ width: 35px;
+ height: 26px;
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 300px;
+ height: 260px;
+ background: linear-gradient(135deg, rgb(35, 37, 38, 0.5), rgb(90, 90, 90, 0.5));
+ padding: 50px 100px 50px 100px;
+ border: 2px solid rgb(255, 255, 255);
+ border-radius: 20px;
+ box-shadow: 3px 2px 6px 1px rgb(204, 204, 204);
+}
+
+.rate{
+ display: flex;
+ flex-direction: column;
+}
+
+.nbu, .deal{
+ text-align: center;
+ font-family: Arial;
+ font-size: 17px;
+ color: white;
+
+}
+
+.p1{
+ font-family: Arial;
+ color: white;
+ font-weight: bold;
+ font-size: 17px;
+}
+
+.p2{
+ font-family: Arial;
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+ font-size: 17px;
+
+}
+
+.difference{
+ text-align: center;
+ font-family: Arial;
+ font-size: 17px;
+ color: rgb(0, 0, 0);
+
+}
+
+.text1, .text2, .text3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid white;
+  padding: 0px 22px 0px 22px;
+  
+}
+
+.button-div{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-top: 35px;
+}
+
+.update-button{
+ width: 300px;
+ height: 60px;
+ color: white;
+ background-color: transparent;
+ border: 2px solid rgb(255, 255, 255);
+ border-radius: 20px;
+ font-family: Arial;
+ font-size: 17px;
+ transition: all 0.5s;
+}
+
+.update-button:active{
+ background-color: rgb(156, 156, 156);
+}
+
+.update-button:hover{
+ background-color: rgb(156, 156, 156);
+}
+
+.Succsess{
+font-family: Arial;
+color: rgb(255, 255, 36);
+font-size: 20px;
+margin: 0px;
+display: none;
+
+}

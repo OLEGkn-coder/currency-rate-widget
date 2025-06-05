@@ -1,0 +1,14 @@
+{
+  "service": "CRM",
+   "name": "Currency Rate Widget",
+ "version": "1.0",
+  "description": "Widget for currency rate",
+  "platform": ["web"],
+  "location": "currency_widget",
+  "module": "Deals",
+  "type": "custom_button",
+  "button_position": "record_detail_right_panel",
+  "index": "widget.html",
+  "width": "auto",
+  "height": "auto" 
+}

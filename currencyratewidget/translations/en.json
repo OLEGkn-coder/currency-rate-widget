@@ -1,0 +1,14 @@
+{"uk": {
+ "p1": "Курс НБУ",
+ "p2": "Курс в угоді",
+ "p3": "Різниця у відсотках",
+ "update-button": "Записати курс в угоду"
+},
+
+"en": {
+ "p1": "NBU rate",
+ "p2": "Deal rate",
+ "p3": "Difference in percent",
+ "update-button": "Record rate in the deal"
+}}
+

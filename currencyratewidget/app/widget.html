@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Курс валют</title>
+  <link rel = "stylesheet" href="style.css">
+ </head>
+ <body>
+  <div class = "container">
+   <div class = "flag">
+    <button class = "en" id = "en"><img src="img/us.jpg" class = "flagimg1"></button>
+    <button class = "uk" id = "uk"><img src = "img/Flag_of_Ukraine.jpg" class = "flagimg2"></button>
+   </div>
+    <div class = "text">
+    <div class = "text1">
+   <p class = "p1" id = "p1">Курс НБУ</p>
+   <p class = "nbu" id = "nbu"></p>
+     </div>
+     <div class = "text2">
+   <p class = "p1" id = "p2">Курс в угоді</p>
+   <p class = "deal" id = "deal"></p>
+   </div>
+   <div class = "text3">
+   <p class = "p2" id = "p3">Різниця у відсотках</p>
+   <p class = "difference" id = "difference"></p>
+   </div>
+   </div>
+   <div class = "button-div">
+    <button class = "update-button" id = "update-button">Записати курс в угоду</button>
+    <p class = "Succsess" id = "Success">Курс оновлено!</p>
+   </div>
+  </div>
+    <script src="https://live.zwidgets.com/js-sdk/1.2/ZohoEmbededAppSDK.min.js"></script>
+  <script src = "script.js"></script>
+ </body>
+</html>

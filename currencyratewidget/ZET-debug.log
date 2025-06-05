@@ -1,0 +1,3 @@
+[error] [2025-06-05T15:14:30.317Z] : ✖ Below file formats are not allowed in Sigma
+[info] [2025-06-05T15:14:30.319Z] :  ==> app\img\Flag_of_Ukraine.svg.webp
+[info] [2025-06-05T15:14:30.319Z] : Note - File formats that can be packed are: txt, md, xml, dre, jpg, jpeg, png, gif, css, js, html, json, mp3, svg, woff, ttf, eot, webm, mp4, and woff2
