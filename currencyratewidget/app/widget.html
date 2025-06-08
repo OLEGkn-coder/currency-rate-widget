@@ -11,7 +11,7 @@
 <body>
 <main class = "container">
 
-<section class = "widget" aria-label = "Currency Rate Widget">
+<section class = "widget" id = "widget" aria-label = "Currency Rate Widget">
 
 <nav class = "menu">
       <button class = "en" id = "en">
@@ -25,6 +25,10 @@
       <button class = "hamburger-menu" id = "hamburger-menu">
         <img src = "img/menu-bar-icon.jpg" class = "icon">
         <span class = "tooltip-3" id = "tooltip-3">Історія</span>
+      </button>
+       <button class = "hamburger-menu-mobile" id = "hamburger-menu-mobile">
+        <img src = "img/menu-bar-icon.jpg" class = "icon-mobile">
+        <span class = "tooltip-3-mobile" id = "tooltip-3-mobile">Історія</span>
       </button>
 </nav>
 
@@ -50,6 +54,7 @@
 </section>
 
 <section class = "history hidden" id = "history" aria-label = "History of deals and rates">
+  <button class = "closes" id = "closes">Закрити</button>
   <table class = "history-table">
     <thead class = "table-head" id = "table-head">
       <tr>
@@ -60,9 +65,9 @@
     </thead>
     <tbody class = "table-body" id = "table-body">
       <tr>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td id = "body-date"></td>
+        <td id = "body-rate"></td>
+        <td id = "body-diff"></td>
       </tr>
     </tbody>
   </table>
