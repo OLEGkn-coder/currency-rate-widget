@@ -114,20 +114,32 @@ updateButton.addEventListener('click', async () => {
 
 const enlan = document.getElementById('en');
 enlan.addEventListener('click', () => {
-  document.getElementById('p1').textContent = "NBU rate";
-  document.getElementById('p2').textContent = "Deal rate";
-  document.getElementById('p3').textContent = "Difference in percent";
+  document.getElementById('nbu-label').textContent = "NBU rate";
+  document.getElementById('deal-label').textContent = "Deal rate";
+  document.getElementById('diff-label').textContent = "Difference in percent";
   document.getElementById('update-button').textContent = "Record rate in the deal";
   document.getElementById('Success').textContent = "Rate updated!";
+  document.getElementById('tooltip-2').textContent = "Ukranian";
+  document.getElementById('tooltip-3').textContent = "History";
+  document.getElementById('history-date').textContent = "Date";
+  document.getElementById('history-rate').textContent = "Rate";
+  document.getElementById('history-diff').textContent = "Difference %";
+
 });
 
 const uklan = document.getElementById('uk');
 uklan.addEventListener('click', () => {
-  document.getElementById('p1').textContent = "Курс НБУ";
-  document.getElementById('p2').textContent = "Курс в угоді";
-  document.getElementById('p3').textContent = "Різниця у відсотках";
+  document.getElementById('nbu-label').textContent = "Курс НБУ";
+  document.getElementById('deal-label').textContent = "Курс в угоді";
+  document.getElementById('diff-label').textContent = "Різниця у відсотках";
   document.getElementById('update-button').textContent = "Записати курс в угоду";
   document.getElementById('Success').textContent = "Курс оновлено!";
+  document.getElementById('tooltip-2').textContent = "Українська";
+  document.getElementById('tooltip-3').textContent = "Історія";
+    document.getElementById('history-date').textContent = "Дата";
+  document.getElementById('history-rate').textContent = "Курс";
+  document.getElementById('history-diff').textContent = "Різниця%";
+
 });
 
 console.log('ZOHO:', typeof ZOHO);
@@ -147,3 +159,9 @@ if (!recordID) {
   recordID = "123456789"; 
   load(recordID);
 }
+
+const hamburgerMenu = document.getElementById('hamburger-menu');
+const historySection = document.getElementById('history');
+hamburgerMenu.addEventListener('click', () => {
+  historySection.classList.toggle('hidden');
+});

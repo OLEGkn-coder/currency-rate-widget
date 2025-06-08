@@ -2,13 +2,25 @@
  "p1": "Курс НБУ",
  "p2": "Курс в угоді",
  "p3": "Різниця у відсотках",
- "update-button": "Записати курс в угоду"
+ "update-button": "Записати курс в угоду",
+ "Success": "Курс оновлено!",
+ "tooltip-2": "Українська",
+ "tooltip-3": "Історія",
+ "history-date": "Дата",
+ "history-rate": "Курс",
+ "history-diff": "Різниця %"
 },
 
-"en": {
+ "en": {
  "p1": "NBU rate",
  "p2": "Deal rate",
  "p3": "Difference in percent",
- "update-button": "Record rate in the deal"
+ "update-button": "Record rate in the deal",
+ "Success": "Rate updated!",
+ "tooltip-2": "Ukranian",
+ "tooltip-3": "History",
+ "history-date": "Date",
+ "history-rate": "Rate",
+ "history-diff": "Difference %"
 }}
 
